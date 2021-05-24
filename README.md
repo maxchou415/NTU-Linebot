@@ -1,7 +1,7 @@
 # NTU Line Bot （臺大 Line Bot）
 其實這原本只是我的面試題，但我真的不知道要做什麼題目加上我剛好報名了新生書院的隊輔，所以想說可以搞一個 Line Bot 來讓學弟/妹們對學校有更近一步的認識。
 
-# Feature Request
+## Feature Request
 如果您想要加任何功能的話，請開 Ticket，並詳細記錄下 User Scenario，畢竟我不會通靈。
 ### Good:
 - 主題：尋找最近的吃飯地點
