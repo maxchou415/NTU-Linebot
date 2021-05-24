@@ -1,5 +1,5 @@
-# Use Node version 8
-FROM node:11
+# Use Node version 16 Alpine
+FROM node:16-alpine3.11
 
 # Set environment as 'Production'
 ENV NODE_ENV production
@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 5000
 
 # Run the project
-CMD npm rebuild && npm run prd 
+CMD npm rebuild && npm run prod 
