@@ -1,0 +1,254 @@
+[
+  {
+      "code": "1010",
+      "shortForm": "中文系"
+  },
+  {
+      "code": "1011",
+      "shortForm": "中文國際生"
+  },
+  {
+      "code": "1020",
+      "shortForm": "外文系"
+  },
+  {
+      "code": "1030",
+      "shortForm": "歷史系"
+  },
+  {
+      "code": "1040",
+      "shortForm": "哲學系"
+  },
+  {
+      "code": "1050",
+      "shortForm": "人類系"
+  },
+  {
+      "code": "1060",
+      "shortForm": "圖資系"
+  },
+  {
+      "code": "1070",
+      "shortForm": "日文系"
+  },
+  {
+      "code": "1090",
+      "shortForm": "戲劇系"
+  },
+  {
+      "code": "2010",
+      "shortForm": "數學系"
+  },
+  {
+      "code": "2020",
+      "shortForm": "物理系"
+  },
+  {
+      "code": "2030",
+      "shortForm": "化學系"
+  },
+  {
+      "code": "2040",
+      "shortForm": "地質系"
+  },
+  {
+      "code": "2070",
+      "shortForm": "心理系"
+  },
+  {
+      "code": "2080",
+      "shortForm": "地理系"
+  },
+  {
+      "code": "2090",
+      "shortForm": "大氣系"
+  },
+  {
+      "code": "3020",
+      "shortForm": "政治學系"
+  },
+  {
+      "code": "3021",
+      "shortForm": "政治系政論組"
+  },
+  {
+      "code": "3022",
+      "shortForm": "政治系國關組"
+  },
+  {
+      "code": "3023",
+      "shortForm": "政治系公行組"
+  },
+  {
+      "code": "3030",
+      "shortForm": "經濟系"
+  },
+  {
+      "code": "3050",
+      "shortForm": "社會系"
+  },
+  {
+      "code": "3100",
+      "shortForm": "社工系"
+  },
+  {
+      "code": "4010",
+      "shortForm": "醫學系"
+  },
+  {
+      "code": "4020",
+      "shortForm": "牙醫系"
+  },
+  {
+      "code": "4030",
+      "shortForm": "藥學系"
+  },
+  {
+      "code": "4040",
+      "shortForm": "醫技系"
+  },
+  {
+      "code": "4060",
+      "shortForm": "護理系"
+  },
+  {
+      "code": "4080",
+      "shortForm": "物治系"
+  },
+  {
+      "code": "4090",
+      "shortForm": "職治系"
+  },
+  {
+      "code": "5010",
+      "shortForm": "土木系"
+  },
+  {
+      "code": "5020",
+      "shortForm": "機械系"
+  },
+  {
+      "code": "5040",
+      "shortForm": "化工系"
+  },
+  {
+      "code": "5050",
+      "shortForm": "工科海洋系"
+  },
+  {
+      "code": "5070",
+      "shortForm": "材料系"
+  },
+  {
+      "code": "6010",
+      "shortForm": "農藝系"
+  },
+  {
+      "code": "6020",
+      "shortForm": "生工系"
+  },
+  {
+      "code": "6030",
+      "shortForm": "農化系"
+  },
+  {
+      "code": "6050",
+      "shortForm": "森林環資系"
+  },
+  {
+      "code": "6060",
+      "shortForm": "動物科技系"
+  },
+  {
+      "code": "6070",
+      "shortForm": "農經系"
+  },
+  {
+      "code": "6080",
+      "shortForm": "園藝系"
+  },
+  {
+      "code": "6090",
+      "shortForm": "獸醫系"
+  },
+  {
+      "code": "6100",
+      "shortForm": "生傳系"
+  },
+  {
+      "code": "6110",
+      "shortForm": "生物機電系"
+  },
+  {
+      "code": "6120",
+      "shortForm": "昆蟲系"
+  },
+  {
+      "code": "6130",
+      "shortForm": "植微系"
+  },
+  {
+      "code": "7010",
+      "shortForm": "工管系"
+  },
+  {
+      "code": "7011",
+      "shortForm": "工管系企管組"
+  },
+  {
+      "code": "7012",
+      "shortForm": "工管系科管組"
+  },
+  {
+      "code": "7020",
+      "shortForm": "會計系"
+  },
+  {
+      "code": "7030",
+      "shortForm": "財金系"
+  },
+  {
+      "code": "7040",
+      "shortForm": "國企系"
+  },
+  {
+      "code": "7050",
+      "shortForm": "資管系"
+  },
+  {
+      "code": "8010",
+      "shortForm": "公衛系"
+  },
+  {
+      "code": "9010",
+      "shortForm": "電機系"
+  },
+  {
+      "code": "9020",
+      "shortForm": "資工系"
+  },
+  {
+      "code": "A010",
+      "shortForm": "法律系"
+  },
+  {
+      "code": "A011",
+      "shortForm": "法律系法學組"
+  },
+  {
+      "code": "A012",
+      "shortForm": "法律系司法組"
+  },
+  {
+      "code": "A013",
+      "shortForm": "法律系財法組"
+  },
+  {
+      "code": "B010",
+      "shortForm": "生科系"
+  },
+  {
+      "code": "B020",
+      "shortForm": "生技系"
+  }
+]
