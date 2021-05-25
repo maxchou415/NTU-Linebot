@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 5000
 
 # Run the project
-CMD npm rebuild && npm run prod 
+CMD npm run prod 
