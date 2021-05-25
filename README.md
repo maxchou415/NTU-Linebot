@@ -22,7 +22,18 @@
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-## Folder Structure
+## Dev Howto
+
+### Environment Variables
+These environment variables are required. Please copy and paste them into the `.env` file, If you don't have that file, create one.
+```
+WEBHOOK_SECRET=
+LINE_CHANNEL_ID=
+LINE_CHANNEL_SECRET=
+LINE_CHANNEL_ACCESS_TOKEN=
+```
+
+### Folder Structure
 ```
 ├── config
 │   ├── default.js          # Each config property (Even is an environment variable) should be stored in this file. (With a default value is a plus)
@@ -30,3 +41,6 @@
 ├── utils                   # Strong-function-based functions (Ex. messageGenerator)
 └── services                # Message handlers
 ```
+
+### Improvement TODOs
+- Add **Sentry** to handle errors.
