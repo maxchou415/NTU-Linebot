@@ -15,7 +15,7 @@
 - 情境：列出任何有 NPC 的地方
 - 參考資料：無
 
-這會是 Bad 的原因: 我怎麼知道哪裡有 NPC 啦？？？？？？？
+*這會是 Bad 的原因: 我怎麼知道哪裡有 NPC 啦？？？？？？？*
 
 ## Pull Request
 非常歡迎大家自幹功能，唯一的要求就是遵守 Standard JS 的規範，不然你的 Pull Request 不會被通過。
@@ -25,7 +25,7 @@
 ## Dev Howto
 
 ### Environment Variables
-These environment variables are required. Please copy and paste them into the `.env` file, If you don't have that file, create one.
+These environment variables are **required**. Please copy and paste them into the `.env` file, If you don't have that file, create one.
 ```
 WEBHOOK_SECRET=
 LINE_CHANNEL_ID=
