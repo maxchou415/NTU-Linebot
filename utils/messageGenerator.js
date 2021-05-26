@@ -35,6 +35,7 @@ module.exports = {
       '臺大附近美食',
       '除了椰子還有活大以外，你還可以⋯⋯',
       [
+        lineTemplateMaker.makeMessageAction('告訴我附近有什麼可以吃！', '吃吃吃'),
         lineTemplateMaker.makeUriAction('追蹤吃貨台大！', 'https://www.facebook.com/ntueater')
       ]
     )]
@@ -59,5 +60,39 @@ module.exports = {
         lineTemplateMaker.makeUriAction('馬上進入 Minecraft NTU ！', 'https://www.notion.so/jchiroto/MineNTU-FAQ-0cb56da5f4a6475c923a0b3cb35165ab')
       ]
     )]
+  },
+  restaurantsNotFound: () => {
+    return '這附近沒東西吃，吃土ㄅ ＱＱＱ'
+  },
+  listRestaurants: ({ restaurants }) => {
+    const columns = restaurants.map((restaurant) => {
+      try {
+        return {
+          thumbnailImageUrl: 'https://picsum.photos/200/300',
+          imageBackgroundColor: '#FFFFFF',
+          title: restaurant.name,
+          text: restaurant.address,
+          actions: [
+            {
+              type: 'uri',
+              label: '到 Google Maps 上看看',
+              uri: restaurant.url || `https://maps.google.com/?q=${restaurant.address}`
+            }
+          ]
+        }
+      } catch (error) {
+        return null
+      }
+    }).filter(data => data)
+    return [{
+      type: 'template',
+      altText: `已列出 ${columns.length} 家可能能吃的餐廳`,
+      template: {
+        type: 'carousel',
+        columns,
+        imageAspectRatio: 'rectangle',
+        imageSize: 'cover'
+      }
+    }]
   }
 }

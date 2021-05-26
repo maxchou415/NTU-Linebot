@@ -1,5 +1,5 @@
 const utils = require('@utils')
 
-module.exports = (res) => {
+module.exports = ({ res }) => {
   res.send(utils.messageGenerator.listContributors())
 }
