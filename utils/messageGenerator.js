@@ -64,6 +64,9 @@ module.exports = {
   restaurantsNotFound: () => {
     return '這附近沒東西吃，吃土ㄅ ＱＱＱ'
   },
+  findNearbyRestaurantsNotice: () => {
+    return '請點擊左下角的加號，傳送當前位置給我～'
+  },
   listRestaurants: ({ restaurants }) => {
     const columns = restaurants.map((restaurant) => {
       try {

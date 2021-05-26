@@ -3,5 +3,6 @@ module.exports = {
   LOST_STUDENT_ID: 'lostStudentId',
   CONTRIBUTORS: 'listContributors',
   SECRET_TELEPORT_POINT: 'teleportPoint',
-  MINECRAFT_NTU: 'minecraftNTU'
+  MINECRAFT_NTU: 'minecraftNTU',
+  FIND_NEARBY_RESTAURANTS: 'findNearbyRestaurants'
 }
